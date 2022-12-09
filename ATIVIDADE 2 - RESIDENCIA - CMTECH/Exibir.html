@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="editTela.css">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>subtitulo</p>
+    <br>
+    <p id="descricao">Lista de itens</p>
+    <br>
+    <ul>
+        <br>
+        <li>My Itens</li>
+        <ol>
+            <li id="itens">Book</li>
+            <li id="itens">Pen</li>
+            <li id="itens">Apple</li>
+            <li id="itens">Cookie</li>
+        </ol>
+        <br>
+        <input type="button" onclick="gerar()" value="Clique para gerar uma lista">
+        <br>
+        <li>Outros itens</li>
+        <ol id="lista"></ol>
+    </ul>
+    <br>
+    <div>
+        <button onclick="exibir()" id="btnExibe" class="btn">Exibir</button>
+        <button onclick="ocultar()" id="btnOculta" class="btn">Ocultar</button>
+        <button onclick="ocultarExibir()" id="btnExibeOculta" class="btn">Exibir/Ocultar</button>
+            <br><br><br><br>
+        <div id="quadrados">
+            <div id="questao1"></div>
+            <div id="questao2"></div>
+        </div>
+    </div>
+
+    <script src="Question.js" type="text/javascript"></script>
+</body>
+</html>
